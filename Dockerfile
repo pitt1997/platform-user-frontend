@@ -5,6 +5,8 @@ USER root
 
 COPY ./docker/nginx.conf /etc/nginx/conf.d/default.conf
 
+RUN npm run build
+
 COPY ./dist  /usr/share/nginx/html/
 
 EXPOSE 80

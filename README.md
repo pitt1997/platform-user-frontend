@@ -55,3 +55,22 @@ npm test
 ## More
 
 You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+
+
+
+## 快速使用
+
+### Docker 容器部署
+
+docker build
+
+```shell
+$ sudo docker build -t platform-user-frontend:v0.0.1 .
+```
+
+docker run
+
+```shell
+$ docker run -p 80:80 -d platform-user-frontend:v0.0.1
+```
+
